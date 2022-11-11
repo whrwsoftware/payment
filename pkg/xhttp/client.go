@@ -8,6 +8,7 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
+	pay "github.com/whrwsoftware/payment"
 	"io"
 	"io/ioutil"
 	"mime/multipart"

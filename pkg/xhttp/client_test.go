@@ -2,6 +2,7 @@ package xhttp
 
 import (
 	"context"
+	pay "github.com/whrwsoftware/payment"
 	"io/ioutil"
 	"testing"
 	"time"
