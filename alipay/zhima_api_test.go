@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 // 芝麻企业信用信用评估初始化测试

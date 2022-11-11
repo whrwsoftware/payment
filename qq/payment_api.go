@@ -16,7 +16,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/whrwsoftware/pay/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/util"
 )
 
 // ParseNotifyToBodyMap 解析QQ支付异步通知的结果到BodyMap

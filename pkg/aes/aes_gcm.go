@@ -5,7 +5,7 @@ import (
 	"crypto/cipher"
 	"fmt"
 
-	"github.com/whrwsoftware/pay/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/util"
 )
 
 // AES-GCM 加密数据

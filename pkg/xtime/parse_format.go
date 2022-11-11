@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/whrwsoftware/pay/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/util"
 )
 
 // 解析时间

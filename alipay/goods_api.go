@@ -4,9 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/whrwsoftware/pay"
-
-	"github.com/whrwsoftware/pay/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/util"
 )
 
 // alipay.merchant.item.file.upload(商品文件上传接口)

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/whrwsoftware/pay/payssion"
+	"github.com/whrwsoftware/payment/payssion"
 	"log"
 	"net/url"
 	"os"

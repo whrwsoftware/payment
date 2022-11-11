@@ -14,7 +14,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/whrwsoftware/pay/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/util"
 	"golang.org/x/crypto/pkcs12"
 )
 

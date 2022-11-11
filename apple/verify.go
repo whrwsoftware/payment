@@ -3,7 +3,7 @@ package apple
 import (
 	"context"
 
-	"github.com/whrwsoftware/pay/pkg/xhttp"
+	"github.com/whrwsoftware/payment/pkg/xhttp"
 )
 
 const (

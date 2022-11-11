@@ -5,14 +5,13 @@ import (
 	"crypto/rsa"
 	"encoding/json"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 	"time"
 
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xhttp"
-	"github.com/whrwsoftware/pay/pkg/xlog"
-	"github.com/whrwsoftware/pay/pkg/xpem"
-	"github.com/whrwsoftware/pay/pkg/xrsa"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xhttp"
+	"github.com/whrwsoftware/payment/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/xpem"
+	"github.com/whrwsoftware/payment/pkg/xrsa"
 )
 
 type Client struct {

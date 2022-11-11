@@ -4,7 +4,6 @@ import (
 	"context"
 	"encoding/xml"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 )
 
 // 公众号纯签约（正式）

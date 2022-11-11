@@ -6,8 +6,6 @@ import (
 	"errors"
 	"fmt"
 	"net/http"
-
-	"github.com/whrwsoftware/pay"
 )
 
 // 创单结单合并API

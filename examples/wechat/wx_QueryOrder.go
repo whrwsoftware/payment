@@ -1,10 +1,9 @@
 package wechat
 
 import (
-	"github.com/whrwsoftware/pay"
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xlog"
-	"github.com/whrwsoftware/pay/wechat"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xlog"
+	"github.com/whrwsoftware/payment/wechat"
 )
 
 func QueryOrder() {

@@ -4,11 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 	"net/http"
 	"time"
 
-	"github.com/whrwsoftware/pay/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/util"
 )
 
 // 特约商户余额提现、二级商户预约提现

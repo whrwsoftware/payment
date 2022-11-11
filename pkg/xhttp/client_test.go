@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 type HttpGet struct {

@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/whrwsoftware/pay/pkg/xhttp"
+	"github.com/whrwsoftware/payment/pkg/xhttp"
 )
 
 // 获取开放平台，access_token 返回结构体

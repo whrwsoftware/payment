@@ -1,4 +1,4 @@
-module github.com/whrwsoftware/pay
+module github.com/whrwsoftware/payment
 
 go 1.19
 

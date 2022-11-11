@@ -14,16 +14,15 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 	"hash"
 	"io/ioutil"
 	"reflect"
 	"strings"
 
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xlog"
-	"github.com/whrwsoftware/pay/pkg/xpem"
-	"github.com/whrwsoftware/pay/pkg/xrsa"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/xpem"
+	"github.com/whrwsoftware/payment/pkg/xrsa"
 )
 
 // 允许进行 sn 提取的证书签名算法

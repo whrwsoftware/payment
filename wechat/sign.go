@@ -9,12 +9,11 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 	"hash"
 	"reflect"
 	"strings"
 
-	"github.com/whrwsoftware/pay/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/util"
 )
 
 // VerifySign 微信同步返回参数验签或异步通知参数验签

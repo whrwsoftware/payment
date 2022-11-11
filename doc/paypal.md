@@ -2,7 +2,7 @@
 
 > 具体API使用介绍，请参考`gopay/paypal/client_test.go`,`gopay/paypal/order_test.go`,`gopay/paypal/payment_test.go` 等xxx_test.go
 
-- 已实现API列表附录：[API List](https://github.com/whrwsoftware/pay/blob/main/doc/paypal.md#%E9%99%84%E5%BD%95)
+- 已实现API列表附录：[API List](https://github.com/whrwsoftware/payment/blob/main/doc/paypal.md#%E9%99%84%E5%BD%95)
 
 - PayPal官方文档：[Official Document](https://developer.paypal.com/docs/api/overview)
 
@@ -12,8 +12,8 @@
 
 ```go
 import (
-"github.com/whrwsoftware/pay/paypal"
-"github.com/whrwsoftware/pay/pkg/xlog"
+"github.com/whrwsoftware/payment/paypal"
+"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 // 初始化PayPal支付客户端
@@ -42,10 +42,10 @@ client.DebugSwitch = pay.DebugOn
 
 ```go
 import (
-    "github.com/whrwsoftware/pay"
-    "github.com/whrwsoftware/pay/paypal"
-    "github.com/whrwsoftware/pay/pkg/util"
-    "github.com/whrwsoftware/pay/pkg/xlog"
+    "github.com/whrwsoftware/payment"
+    "github.com/whrwsoftware/payment/paypal"
+    "github.com/whrwsoftware/payment/pkg/util"
+    "github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 // Create Orders example
@@ -83,8 +83,8 @@ if ppRsp.Code != paypal.Success {
 
 ```go
 import (
-    "github.com/whrwsoftware/pay"
-    "github.com/whrwsoftware/pay/pkg/xlog"
+    "github.com/whrwsoftware/payment"
+    "github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 // Capture payment for order

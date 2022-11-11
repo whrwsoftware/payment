@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xhttp"
-	"github.com/whrwsoftware/pay/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xhttp"
+	"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 // Client PayPal支付客

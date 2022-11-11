@@ -8,7 +8,6 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 	"io"
 	"io/ioutil"
 	"mime/multipart"
@@ -18,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/whrwsoftware/pay/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/util"
 )
 
 type Client struct {

@@ -4,7 +4,6 @@ import (
 	"context"
 	"encoding/xml"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 )
 
 // 订单附加信息提交（正式环境）

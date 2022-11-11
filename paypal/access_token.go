@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/whrwsoftware/pay/pkg/xhttp"
-	"github.com/whrwsoftware/pay/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/xhttp"
+	"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 // 获取AccessToken（Get an access token）

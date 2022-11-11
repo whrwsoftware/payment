@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/whrwsoftware/pay/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 var (

@@ -3,11 +3,10 @@ package alipay
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 	"net/http"
 	"net/url"
 
-	"github.com/whrwsoftware/pay/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/util"
 )
 
 // 解析支付宝支付异步通知的参数到BodyMap

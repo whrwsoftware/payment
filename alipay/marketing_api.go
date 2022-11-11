@@ -4,7 +4,6 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 )
 
 // alipay.open.app.qrcode.create(小程序生成推广二维码接口)

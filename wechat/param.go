@@ -11,13 +11,12 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 	"hash"
 	"io/ioutil"
 	"strings"
 
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xhttp"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xhttp"
 	"golang.org/x/crypto/pkcs12"
 )
 

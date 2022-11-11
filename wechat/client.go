@@ -6,13 +6,12 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 	"strings"
 	"sync"
 
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xhttp"
-	"github.com/whrwsoftware/pay/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xhttp"
+	"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 type Client struct {

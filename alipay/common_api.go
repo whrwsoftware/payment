@@ -9,16 +9,15 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 	"net/url"
 	"reflect"
 	"time"
 
-	xaes "github.com/whrwsoftware/pay/pkg/aes"
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xhttp"
-	"github.com/whrwsoftware/pay/pkg/xpem"
-	"github.com/whrwsoftware/pay/pkg/xrsa"
+	xaes "github.com/whrwsoftware/payment/pkg/aes"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xhttp"
+	"github.com/whrwsoftware/payment/pkg/xpem"
+	"github.com/whrwsoftware/payment/pkg/xrsa"
 )
 
 // 格式化请求URL参数

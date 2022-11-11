@@ -1,12 +1,11 @@
 package wechat
 
 import (
-	"github.com/whrwsoftware/pay"
 	"testing"
 	"time"
 
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 func TestClient_EntrustPublic(t *testing.T) {

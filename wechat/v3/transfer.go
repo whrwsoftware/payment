@@ -5,8 +5,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-
-	"github.com/whrwsoftware/pay"
 )
 
 // 发起商家转账API

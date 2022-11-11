@@ -3,7 +3,7 @@ package apple
 import (
 	"fmt"
 
-	"github.com/whrwsoftware/pay/pkg/jwt"
+	"github.com/whrwsoftware/payment/pkg/jwt"
 )
 
 const (

@@ -4,7 +4,6 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 )
 
 // ant.merchant.expand.shop.modify(修改蚂蚁店铺)

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/whrwsoftware/pay/pkg/jwt"
+	"github.com/whrwsoftware/payment/pkg/jwt"
 )
 
 // rootPEM is from `openssl x509 -inform der -in AppleRootCA-G3.cer -out apple_root.pem`

@@ -1,10 +1,9 @@
 package alipay
 
 import (
-	"github.com/whrwsoftware/pay"
 	"testing"
 
-	"github.com/whrwsoftware/pay/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 func TestOpenAppQrcodeCreate(t *testing.T) {

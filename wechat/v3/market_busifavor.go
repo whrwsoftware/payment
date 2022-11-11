@@ -5,8 +5,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-
-	"github.com/whrwsoftware/pay"
 )
 
 // 创建商家券

@@ -9,9 +9,7 @@ import (
 	"context"
 	"encoding/xml"
 	"fmt"
-	"github.com/whrwsoftware/pay"
-
-	"github.com/whrwsoftware/pay/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/util"
 )
 
 // 发放现金红包

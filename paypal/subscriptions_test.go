@@ -3,7 +3,7 @@ package paypal
 import (
 	"testing"
 
-	"github.com/whrwsoftware/pay/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 func TestClient_CreateBillingPlan(t *testing.T) {

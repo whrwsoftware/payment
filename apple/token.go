@@ -8,7 +8,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/whrwsoftware/pay/pkg/jwt"
+	"github.com/whrwsoftware/payment/pkg/jwt"
 )
 
 type SignConfig struct {

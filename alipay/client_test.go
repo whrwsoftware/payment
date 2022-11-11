@@ -2,13 +2,12 @@ package alipay
 
 import (
 	"context"
-	"github.com/whrwsoftware/pay"
 	"os"
 	"testing"
 
-	"github.com/whrwsoftware/pay/alipay/cert"
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xlog"
+	"github.com/whrwsoftware/payment/alipay/cert"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 var (

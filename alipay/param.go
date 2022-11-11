@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/whrwsoftware/pay/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/util"
 )
 
 // AppId   string `json:"app_id"`   //支付宝分配给开发者的应用ID

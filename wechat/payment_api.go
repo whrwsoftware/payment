@@ -15,15 +15,14 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"strings"
 
-	xaes "github.com/whrwsoftware/pay/pkg/aes"
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xhttp"
+	xaes "github.com/whrwsoftware/payment/pkg/aes"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xhttp"
 )
 
 // ParseNotifyToBodyMap 解析微信支付异步通知的结果到BodyMap（推荐）

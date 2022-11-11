@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/whrwsoftware/pay/pkg/xlog"
-	"github.com/whrwsoftware/pay/pkg/xrsa"
+	"github.com/whrwsoftware/payment/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/xrsa"
 )
 
 func TestSyncVerifySign(t *testing.T) {

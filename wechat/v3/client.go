@@ -4,15 +4,14 @@ import (
 	"context"
 	"crypto/rsa"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 	"net/http"
 	"sync"
 	"time"
 
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xhttp"
-	"github.com/whrwsoftware/pay/pkg/xlog"
-	"github.com/whrwsoftware/pay/pkg/xpem"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xhttp"
+	"github.com/whrwsoftware/payment/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/xpem"
 )
 
 // ClientV3 微信支付 V3

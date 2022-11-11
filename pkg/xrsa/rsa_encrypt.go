@@ -11,6 +11,7 @@ import (
 )
 
 // RSA加密数据
+//
 //	t：PKCS1 或 PKCS8
 //	originData：原始字符串byte数组
 //	publicKey：公钥
@@ -57,6 +58,7 @@ func RsaEncryptData(t PKCSType, originData []byte, publicKey string) (cipherData
 }
 
 // RSA加密数据
+//
 //	OAEPWithSHA-256AndMGF1Padding
 func RsaEncryptOAEPData(h hash.Hash, t PKCSType, publicKey string, originData, label []byte) (cipherData []byte, err error) {
 	var (

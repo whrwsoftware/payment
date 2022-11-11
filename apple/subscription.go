@@ -4,10 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 	"net/http"
 
-	"github.com/whrwsoftware/pay/pkg/xhttp"
+	"github.com/whrwsoftware/payment/pkg/xhttp"
 )
 
 // GetAllSubscriptionStatuses

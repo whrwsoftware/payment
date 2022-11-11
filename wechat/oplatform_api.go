@@ -10,7 +10,7 @@ package wechat
 import (
 	"context"
 
-	"github.com/whrwsoftware/pay/pkg/xhttp"
+	"github.com/whrwsoftware/payment/pkg/xhttp"
 )
 
 // GetOauth2AccessToken 微信第三方登录，code 换取 access_token

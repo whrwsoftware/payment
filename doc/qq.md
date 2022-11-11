@@ -2,7 +2,7 @@
 
 > QQ支付 使用方法请参考 `GoPay微信v2文档` 的文档
 
-> GoPay微信v2文档：[GoPay微信v2文档](https://github.com/whrwsoftware/pay/blob/main/doc/wechat_v2.md)
+> GoPay微信v2文档：[GoPay微信v2文档](https://github.com/whrwsoftware/payment/blob/main/doc/wechat_v2.md)
 
 ### QQ支付 API
 

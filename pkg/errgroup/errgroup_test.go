@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/whrwsoftware/pay/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 func TestErrgroup(t *testing.T) {

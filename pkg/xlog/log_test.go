@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/whrwsoftware/pay/pkg/errgroup"
+	"github.com/whrwsoftware/payment/pkg/errgroup"
 )
 
 func TestLog(t *testing.T) {

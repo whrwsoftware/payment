@@ -4,12 +4,11 @@ import (
 	"crypto/sha1"
 	"encoding/base64"
 	"encoding/json"
-	"github.com/whrwsoftware/pay"
 	"testing"
 
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xlog"
-	"github.com/whrwsoftware/pay/pkg/xrsa"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/xrsa"
 )
 
 func TestClient_Transfer(t *testing.T) {

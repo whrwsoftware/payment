@@ -8,13 +8,12 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/whrwsoftware/pay"
 	"strings"
 	"time"
 
-	"github.com/whrwsoftware/pay/pkg/util"
-	"github.com/whrwsoftware/pay/pkg/xlog"
-	"github.com/whrwsoftware/pay/pkg/xpem"
+	"github.com/whrwsoftware/payment/pkg/util"
+	"github.com/whrwsoftware/payment/pkg/xlog"
+	"github.com/whrwsoftware/payment/pkg/xpem"
 )
 
 // Deprecated
