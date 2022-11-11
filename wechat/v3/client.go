@@ -8,6 +8,7 @@ import (
 	"sync"
 	"time"
 
+	pay "github.com/whrwsoftware/payment"
 	"github.com/whrwsoftware/payment/pkg/util"
 	"github.com/whrwsoftware/payment/pkg/xhttp"
 	"github.com/whrwsoftware/payment/pkg/xlog"

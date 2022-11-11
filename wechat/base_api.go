@@ -6,6 +6,7 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
+	pay "github.com/whrwsoftware/payment"
 	"github.com/whrwsoftware/payment/pkg/util"
 )
 

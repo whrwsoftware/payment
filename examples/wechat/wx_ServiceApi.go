@@ -3,6 +3,7 @@ package wechat
 import (
 	"net/http"
 
+	pay "github.com/whrwsoftware/payment"
 	"github.com/whrwsoftware/payment/pkg/util"
 	"github.com/whrwsoftware/payment/pkg/xlog"
 	"github.com/whrwsoftware/payment/wechat"

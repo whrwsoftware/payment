@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"net/url"
 
+	pay "github.com/whrwsoftware/payment"
 	"github.com/whrwsoftware/payment/pkg/util"
 )
 

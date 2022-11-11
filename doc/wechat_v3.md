@@ -22,6 +22,7 @@
 
 ```go
 import (
+pay "github.com/whrwsoftware/payment"
 "github.com/whrwsoftware/payment/pkg/xlog"
 "github.com/whrwsoftware/payment/wechat/v3"
 )
@@ -124,6 +125,7 @@ jsapi, err := client.PaySignOfJSAPI("appid", "prepayid")
 ```go
 import (
 "github.com/whrwsoftware/payment/wechat/v3"
+pay "github.com/whrwsoftware/payment"
 "github.com/whrwsoftware/payment/pkg/xlog"
 )
 
@@ -147,6 +149,7 @@ return
 ```go
 import (
 "github.com/whrwsoftware/payment/wechat/v3"
+pay "github.com/whrwsoftware/payment"
 "github.com/whrwsoftware/payment/pkg/xlog"
 )
 

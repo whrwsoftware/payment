@@ -5,6 +5,7 @@ import (
 	"os"
 	"testing"
 
+	pay "github.com/whrwsoftware/payment"
 	"github.com/whrwsoftware/payment/pkg/util"
 	"github.com/whrwsoftware/payment/pkg/xlog"
 )

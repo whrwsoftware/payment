@@ -15,6 +15,7 @@ import (
 	"io/ioutil"
 	"strings"
 
+	pay "github.com/whrwsoftware/payment"
 	"github.com/whrwsoftware/payment/pkg/util"
 	"github.com/whrwsoftware/payment/pkg/xhttp"
 	"golang.org/x/crypto/pkcs12"

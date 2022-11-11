@@ -3,6 +3,7 @@ package paypal
 import (
 	"testing"
 
+	pay "github.com/whrwsoftware/payment"
 	"github.com/whrwsoftware/payment/pkg/xlog"
 )
 

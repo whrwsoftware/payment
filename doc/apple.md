@@ -15,7 +15,8 @@
 ```go
 import (
     "github.com/whrwsoftware/payment/apple"
-    "github.com/whrwsoftware/payment/pkg/xlog"
+    pay "github.com/whrwsoftware/payment"
+"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 pwd := ""
@@ -46,7 +47,8 @@ if rsp.Receipt != nil {
 ```go
 import (
     "github.com/whrwsoftware/payment/apple"
-    "github.com/whrwsoftware/payment/pkg/xlog"
+    pay "github.com/whrwsoftware/payment"
+"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 // decode signedPayload

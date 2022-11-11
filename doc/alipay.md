@@ -21,7 +21,8 @@
 ```go
 import (
     "github.com/whrwsoftware/payment/alipay"
-    "github.com/whrwsoftware/payment/pkg/xlog"
+    pay "github.com/whrwsoftware/payment"
+"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 // 初始化支付宝客户端
@@ -189,7 +190,8 @@ return c.String(http.StatusOK, "success")
 ```go
 import (
     "github.com/whrwsoftware/payment/alipay"
-    "github.com/whrwsoftware/payment/pkg/xlog"
+    pay "github.com/whrwsoftware/payment"
+"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 // 换取授权访问令牌（默认使用utf-8，RSA2）

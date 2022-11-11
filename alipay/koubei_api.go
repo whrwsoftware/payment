@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	pay "github.com/whrwsoftware/payment"
 )
 
 // koubei.trade.order.aggregate.consult(聚合支付订单咨询服务)

@@ -13,6 +13,7 @@
 ```go
 import (
 "github.com/whrwsoftware/payment/paypal"
+pay "github.com/whrwsoftware/payment"
 "github.com/whrwsoftware/payment/pkg/xlog"
 )
 
@@ -44,8 +45,10 @@ client.DebugSwitch = pay.DebugOn
 import (
     "github.com/whrwsoftware/payment"
     "github.com/whrwsoftware/payment/paypal"
-    "github.com/whrwsoftware/payment/pkg/util"
-    "github.com/whrwsoftware/payment/pkg/xlog"
+    pay "github.com/whrwsoftware/payment"
+"github.com/whrwsoftware/payment/pkg/util"
+    pay "github.com/whrwsoftware/payment"
+"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 // Create Orders example
@@ -84,7 +87,8 @@ if ppRsp.Code != paypal.Success {
 ```go
 import (
     "github.com/whrwsoftware/payment"
-    "github.com/whrwsoftware/payment/pkg/xlog"
+    pay "github.com/whrwsoftware/payment"
+"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
 // Capture payment for order

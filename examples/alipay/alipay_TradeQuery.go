@@ -1,6 +1,7 @@
 package alipay
 
 import (
+	pay "github.com/whrwsoftware/payment"
 	"github.com/whrwsoftware/payment/alipay"
 	"github.com/whrwsoftware/payment/pkg/xlog"
 )

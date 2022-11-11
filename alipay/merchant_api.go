@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	pay "github.com/whrwsoftware/payment"
 )
 
 // alipay.trade.royalty.relation.bind(分账关系绑定)

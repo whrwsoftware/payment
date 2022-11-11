@@ -1,9 +1,9 @@
 package alipay
 
 import (
-	"testing"
-
+	pay "github.com/whrwsoftware/payment"
 	"github.com/whrwsoftware/payment/pkg/xlog"
+	"testing"
 )
 
 func TestFundTransUniTransfer(t *testing.T) {

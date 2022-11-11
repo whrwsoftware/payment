@@ -8,6 +8,7 @@ import (
 	"encoding/json"
 	"testing"
 
+	pay "github.com/whrwsoftware/payment"
 	"github.com/whrwsoftware/payment/pkg/xlog"
 )
 
